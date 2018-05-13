@@ -7,22 +7,6 @@ body {
 
   }
 
-row img{
-  position:relative; 
-  display:inline-block; 
-  width:30% max-width:180px; 
-  margin: 5px 10px 5px 10px;
-  padding: 0px 10px 0px 10px;
-}
-
-row2 img{
-  position:relative; 
-  display:inline-block; 
-  width:30% max-width:180px; 
-  margin 0 auto;
-  padding: 0px 10px 0px 10px;
-}
-
   h2{
     color: #4aaaa5;
   }
@@ -95,10 +79,92 @@ header {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
   }
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .write1{
+    position: absolute;
+    margin-top: -62px;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 13px;
+    color: #fff;
+    background-color: #4aaaa5;
+    opacity: 0.7;
 
- 
+}
+  .write2{
+    position: absolute;
+    float: right;
+    margin-top: 54px;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 13px;
+    color: #fff;
+    background-color: #4aaaa5;
+    opacity: 0.7;
+}
+
+.write3{
+  position: absolute;
+  margin-top: -45px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 13px;
+  color: #fff;
+  background-color: #4aaaa5;
+  opacity: 0.7;
+}
+
+.write4{
+  position: absolute;
+  float: right;
+  margin-top: 45px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 13px;
+  color: #fff;
+  background-color: #4aaaa5;
+  opacity: 0.7;
+}
+
+
+.write5{
+  position: absolute;
+  margin-top: -35px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 13px;
+  color: #fff;
+  background-color: #4aaaa5;
+  opacity: 0.7;
+}
+
+.write6{
+  position: absolute;
+  float:right;
+  margin-top: 25px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 13px;
+  color: #fff;
+  background-color: #4aaaa5;
+  opacity: 0.7;
+}
+
+
+
+
+
 footer {
-    padding: 30px 0;
+    padding: 25px 0;
     clear: both;
     font-size: 12px;
     color: #fff;
@@ -106,5 +172,5 @@ footer {
     text-align: center;
     background: #666;
     border-top: 8px solid #4aaaa5;
-    height: 50px;
+    height: 40px;
   }
