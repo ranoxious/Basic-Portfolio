@@ -158,13 +158,13 @@ footer{
 
 header {
 
-  width: 400px;
-  margin: -30px;
+  width: 550px;
+  margin: -40px;
  
 }
 nav {
-  float: left;
-  margin-top: 40px;
+
+  margin-top: 30px;
 
 }
 nav a {
@@ -175,7 +175,7 @@ nav a {
 
 #main-container {
  
-margin:-15px;
+margin:-10px;
 
 }
 #logo{
@@ -190,8 +190,8 @@ margin:-15px;
 }
 
 header{
-  width:80%;
-  margin: -15px;
+  width:95%;
+  margin: -13px;
 }
 
 footer{

@@ -260,13 +260,13 @@ footer{
 
 header {
 
-  width: 400px;
+  width: 500px;
   margin: -30px;
  
 }
 nav {
   float: left;
-  margin-top: 40px;
+  margin-top: 45px;
 
 }
 nav a {
@@ -299,8 +299,7 @@ margin:-15px;
 
 .container {
   width: 100%;
-  margin: 0 auto;
-  clear: both;
+  
 }
 
 header{
@@ -315,3 +314,16 @@ footer{
 
 }
 
+@media screen and (max-width: 980px) {
+  #main-container  {
+    padding-top: 0;
+    }
+  .container {
+    width: 100%;
+    max-width: 750px;
+  }
+  .main-section {
+    width: 60%;
+  
+  }
+}
