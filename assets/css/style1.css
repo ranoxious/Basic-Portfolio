@@ -107,3 +107,96 @@ footer {
     border-top: 8px solid #4aaaa5;
     height: 40px;
   }
+
+
+
+
+  @media screen and (max-width: 640px)
+{
+
+header {
+
+  width: 500px;
+  margin: -60px;
+
+}
+nav {
+  float: left;
+  margin-top: -30px;
+
+}
+nav a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+#main-container {
+ 
+margin:-25px;
+
+}
+#logo{
+  margin:30px;
+
+}
+footer{
+  width: 400px;
+  margin: -50px;
+}
+
+
+#inlineFormInputName, #email, #comment{
+  width:-20px;
+}
+}
+
+
+
+@media screen and (max-width: 768px)
+{
+
+header {
+
+  width: 400px;
+  margin: -30px;
+ 
+}
+nav {
+  float: left;
+  margin-top: 40px;
+
+}
+nav a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+#main-container {
+ 
+margin:-15px;
+
+}
+#logo{
+  margin:13px;
+
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+}
+
+header{
+  width:80%;
+  margin: -15px;
+}
+
+footer{
+  width: 680px;
+  margin: -45px;
+}
+
+}
